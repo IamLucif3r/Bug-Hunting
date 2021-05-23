@@ -3,4 +3,4 @@ A Collection of Notes, Methodologies, POCs and everything else related to Bug Hu
 <hr>
 You can view all of my notes in this repository. 
 
-![](assets/1.jpg)
+### Contribution 
