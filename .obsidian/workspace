@@ -6,23 +6,21 @@
       {
         "id": "a614e49b562f0a8d",
         "type": "leaf",
-        "dimension": 19.900497512437813,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Reconnaissance- Phase1.md",
+            "file": "Reconnaissance - Phase2.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "fdc03fa4feadf488",
+        "id": "d6384b9c5e800aec",
         "type": "leaf",
-        "dimension": 80.09950248756219,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Reconnaissance- Phase1.md",
+            "file": "Reconnaissance - Phase2.md",
             "mode": "preview"
           }
         }
@@ -65,7 +63,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 165.00079345703125
   },
   "right": {
     "id": "1d341d09820565bd",
@@ -81,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reconnaissance- Phase1.md",
+                "file": "Reconnaissance - Phase2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,9 +99,10 @@
   },
   "active": "a614e49b562f0a8d",
   "lastOpenFiles": [
+    "Reconnaissance - Phase2.md",
     "Reconnaissance- Phase1.md",
-    "Reconnaissance.md",
     "Untitled.md",
+    "Reconnaissance.md",
     "Methodology - Workflows.md",
     "README.md"
   ]
