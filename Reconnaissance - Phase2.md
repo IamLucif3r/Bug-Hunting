@@ -64,24 +64,61 @@ Word lists are used to find new subdomains, interesting files, cracking password
 		
 #### 2.7 Tools
 1. Amass:
-	- 
-2. 
+	- https://github.com/OWASP/Amass
+	- Amass will utilize a bunch of online resources to find subdomains. Most of these are third party vendors which they scrape or utilize their API to pull a listsubdomains.
+2. Knock.py:
+	- https://github.com/guelfoweb/knock
+	-  it shows the response status and the technology stack. This is very useful for quickly understanding each subdomain.
+
 <hr>
 
 ## 3. DNS Resolutions
+- During the subdomain enumeration process, you should have generated a large list subdomains. In order to start probing these endpoints you need to know which ones are live.
+-  To do this we can perform a DNS lookup against a domain to see if it contains an A record.
+-  [Massdns](https://github.com/blechschmidt/massdns): The tool is written in C and requires us to build it before we can use it.
+
 <hr>
 
 ## 4. Screen Shot
+- When you’re dealing with thousands of targets it is much easier to scroll through a bunch of screenshots than visiting each site manually. Just by looking at a screen shot you can determine several things such as its technology, is it old, does it look interesting, is there login functionality, and much more.
+- [Eyewitness](https://github.com/FortyNorthSecurity/EyeWitness):  It attempts to take a screenshot of each domain in the list that was passed to the tool. Once the tool is finished you can scroll through each of the screen shots to find interesting endpoints.
+
 <hr>
 
 ## 5. Content Discovery
-#### 5.1 Self Crawl
-#### 5.2 Wayback Machine Crawl Data
-#### 5.3 Common Crawl Data
-#### 5.4 Directory Brute Force
-<hr>
+- Content discovery is a vital process in the reconnaissance phase. Failing to perform this phase properly will result in lots of missed vulnerabilities. The main purpose behind content discovery is to find endpoints on a target domain. 
+- You are looking for things such as log files, config files, interesting technologies or applications, and anything else that is hosted on the website.
+ ![](assets/content-disc.png)
 
-## 6. Inspecting JS Files
+#### 5.1 Self Crawl
+- One of the best ways to find endpoints on a target is to crawl the application. Crawling a website involves recursively visiting each link and saving each link on a web page recursively.
+- Tool: [Crawler](https://github.com/ghostlulzhacks/crawler/tree/master).
+
+#### 5.2 Wayback Machine Crawl Data
+- The Wayback Machine is an archive of the entire internet. Basically, they go to every website and they crawl it while  taking screenshots and logging the data to a database.
+- interesting filters include:
+	-  .zip
+	- .config
+	- /admin/
+	- /api/
+- Once you get the data start looking for interesting files and GET parameters that might be vulnerable.
+
+
+#### 5.3 Common Crawl Data
+- like the Wayback Machine this data is publicly available and
+we can use it to get a list of endpoints on a site passively. 
+	- http://commoncrawl.org/
+- The following script can be used to query the data provided by common crawl:
+	-  https://github.com/ghostlulzhacks/commoncrawl
+
+#### 5.4 Directory Brute Force
+- Depending on your wordlists you can find all kinds of interesting endpoints like backup files, core dumps, config files, and a whole lot more.
+- Tool: [GoBuster](https://github.com/OJ/gobuster)
+
+<hr>
+## 6. Inspecting JS Files 
+
+
 #### 6.1 Link Finder
 #### 6.2 JSearch
 <hr>
