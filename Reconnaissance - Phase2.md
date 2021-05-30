@@ -19,16 +19,18 @@ Word lists are used to find new subdomains, interesting files, cracking password
 #### 1.4 CRTSH
 - Every https domain is logged in a database somewhere. Internetwache created a tool to scrape this database for subdomains. Every hour Internetwache uses this tool to update his wordlist.
 	- https://github.com/internetwache/CT_subdomains	
-	- 
+	
 <hr>
 
 ## 2. Subdomain Enumeration
 #### 2.1 Certification Transparency Logs
 - Any site that starts with HTTPS:// uses SSL certificates to provide a secure connection. If a hacker or rogue certificate authority is able to forge this certificate they would be able to perform man in the middle attacks.
-- ![](assets/subdomain-enum.png)
+
+ ![](assets/subdomain-enum.png)
 - The certificate transparency log is used to monitor and audit unauthorized certificates. Every time you get an SSL certificate for your domain or subdomain it will be logged in certificate transparency logs
 - We can find all SSL certificates belonging to a domain by issuing a GET request to https://crt.sh/?q=%25.facebook.com as shown below:
-	- ![](assets/crt.png)
+
+	 ![](assets/crt.png)
 - <b>Tools</b>:
 	- [Crtsh.py](https://github.com/ghostlulzhacks/CertificateTransparencyLogs)
 #### 2.2 Search Engine
@@ -142,5 +144,17 @@ website.
 - https://gbhackers.com/latest-google-dorks-list/
 	
 #### 7.2 Third Party Vendors
+- Organizations utilize sites such as Trello, Pastebin, GitHub, Jira, and more in their daily operations. Using Google dorks,  you can find these endpoints and search for sensitive information.
+-  There have been several instances where I have found credentials stored on a public Trello board. A typical dork when looking for third party vendors looks like:
+	-  site: ThirdPartyVendor CompanyName
+
 #### 7.3 Content
-#### 7.4 
+![](assets/dork-1.png)
+![](assets/dork-2.png)
+![](assets/dork-3.png)
+![](assets/dork-4.png)
+
+#### Conclusion
+Google dorks can be used to find anything and everything about your target.Google dorks have been around for a long time and they don’t seem to be going away anytime soon. There are some people who solely rely on google dorks to find their vulnerabilities.
+		Exploit-db has a huge list of dorks that can be used to
+find sensitive or vulnerable endpoints. Although exploit-db contains many interesting dorks I often find myself searching for third party vendors for interesting information.
