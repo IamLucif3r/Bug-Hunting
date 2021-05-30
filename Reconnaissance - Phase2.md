@@ -116,15 +116,31 @@ we can use it to get a list of endpoints on a site passively.
 - Tool: [GoBuster](https://github.com/OJ/gobuster)
 
 <hr>
-## 6. Inspecting JS Files 
 
+## 6. Inspecting JS Files 
+There are interesting things in JavaScript files such as AWS keys, S3 bucket endpoints, API keys, and much more.
 
 #### 6.1 Link Finder
+- Linkfinder is one of the best tools for parsing endpoints from JavaScript files. The tool works by using jsbeautifier with a list of regexes to find URLs.
+- [LinkFinder Tool](https://github.com/GerbenJavado/LinkFinder)
 #### 6.2 JSearch
+- Jssearch is another JavaScript parser except this tool primarily used to find sensitive or interesting strings.
+-  For instance, developers will sometimes hard code API keys, AWS credentials, and other sensitive information in JavaScript files. This information can easily be parsed out with the use of regexes.
+-  [JSearch Tool](https://github.com/incogbyte/jsearch)
+
 <hr>
 
 ## 7. Google Dorks
+- A huge list of interesting dorks can be found on the exploit-db
+website.
+- https://www.exploit-db.com/google-hacking-database
+
 #### 7.1 Dork Basics
+- Dorks work on the vast majority of search engines such as Bing, AOL, and yahoo. Depending on how thorough you want to be you may wish to utilize the results of multiple search engines.
+- site: domainName
+- “inurl:” and “intitle:”
+- https://gbhackers.com/latest-google-dorks-list/
+	
 #### 7.2 Third Party Vendors
 #### 7.3 Content
 #### 7.4 
