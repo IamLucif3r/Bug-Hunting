@@ -4,23 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "a614e49b562f0a8d",
+        "id": "0a67ce69dee42c26",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Reconnaissance - Phase2.md",
+            "file": "Fingerprinting.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "d6384b9c5e800aec",
+        "id": "65bc38d42eca6b69",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Reconnaissance - Phase2.md",
+            "file": "Fingerprinting.md",
             "mode": "preview"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reconnaissance - Phase2.md",
+                "file": "Fingerprinting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,11 +97,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a614e49b562f0a8d",
+  "active": "0a67ce69dee42c26",
   "lastOpenFiles": [
+    "Fingerprinting.md",
+    "Untitled.md",
     "Reconnaissance - Phase2.md",
     "Reconnaissance- Phase1.md",
-    "Untitled.md",
     "Reconnaissance.md",
     "Methodology - Workflows.md",
     "README.md"
