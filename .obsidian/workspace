@@ -6,21 +6,23 @@
       {
         "id": "0a67ce69dee42c26",
         "type": "leaf",
+        "dimension": 51.360842844600526,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Fingerprinting.md",
+            "file": "Exploitation Phase.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "65bc38d42eca6b69",
+        "id": "dea9f20ba78f6f51",
         "type": "leaf",
+        "dimension": 48.639157155399474,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Fingerprinting.md",
+            "file": "Exploitation Phase.md",
             "mode": "preview"
           }
         }
@@ -79,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fingerprinting.md",
+                "file": "Exploitation Phase.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,8 +101,9 @@
   },
   "active": "0a67ce69dee42c26",
   "lastOpenFiles": [
-    "Fingerprinting.md",
+    "Exploitation Phase.md",
     "Untitled.md",
+    "Fingerprinting.md",
     "Reconnaissance - Phase2.md",
     "Reconnaissance- Phase1.md",
     "Reconnaissance.md",
