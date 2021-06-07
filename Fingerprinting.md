@@ -31,9 +31,9 @@ net:<”CIDR,CIDR,CIDR”>
 ### 1.5 Masscan
 - Mass scanners are really good at detecting a single port across a huge range of IPs. The tool Masscan was built to scan the entire internet in just a few hours so it should be able to scan a large organization with ease.
 - https://github.com/robertdavidgraham/masscan
-- ```bash
+```bash
 sudo masscan -p<Port Here> <CIDR Range Here> --exclude  Exclude IP> --banners -oX <Out File Name> ```
-
+```
 <hr>
 
 ## 2. Web Applications
