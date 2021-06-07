@@ -1,0 +1,111 @@
+{
+  "main": {
+    "id": "260e5b77859bdfd2",
+    "type": "split",
+    "children": [
+      {
+        "id": "48da4129aec36abd",
+        "type": "leaf",
+        "dimension": 49.956101843722564,
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      },
+      {
+        "id": "e4ffc24d677ca97d",
+        "type": "leaf",
+        "dimension": 50.043898156277436,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Exploitation Phase 2.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c8275bb0420dfee2",
+    "type": "split",
+    "children": [
+      {
+        "id": "d89a4dac03f43782",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a625e6d0dc9825c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "7117f5fc05700b31",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 165.00079345703125
+  },
+  "right": {
+    "id": "1d341d09820565bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "9aaa98b5e40dde1e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9a04470220bd659",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Exploitation Phase 2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e4ffc24d677ca97d",
+  "lastOpenFiles": [
+    "Exploitation Phase 2.md",
+    "Exploitation Phase.md",
+    "Reconnaissance- Phase1.md",
+    "Untitled.md",
+    "Fingerprinting.md",
+    "Reconnaissance - Phase2.md",
+    "Reconnaissance.md",
+    "Methodology - Workflows.md",
+    "README.md"
+  ]
+}
