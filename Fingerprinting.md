@@ -47,8 +47,9 @@ sudo masscan -p<Port Here> <CIDR Range Here> --exclude  Exclude IP> --banners -o
 ### 2.3 Firewall
 - It’s not uncommon to see an application protected by a web application firewall (WAF). Before you start throwing a bunch of XSS payloads at a target you should check to see if there is a WAF.
 - https://github.com/EnableSecurity/wafw00f
-- ```bash
+```bash
  wafoof <URL>
+```
 - ![](assets/waf.png)
 - The hacking community has been bypassing WAFs ever since the first WAF came out and much of it is documented.
 	- https://github.com/0xInfection/Awesome-WAF#known-bypasses
