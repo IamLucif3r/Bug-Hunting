@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "48da4129aec36abd",
+        "id": "e4ffc24d677ca97d",
         "type": "leaf",
-        "dimension": 49.956101843722564,
         "state": {
           "type": "empty",
           "state": {}
         }
       },
       {
-        "id": "e4ffc24d677ca97d",
+        "id": "4273a85075e63506",
         "type": "leaf",
-        "dimension": 50.043898156277436,
         "state": {
           "type": "markdown",
           "state": {
