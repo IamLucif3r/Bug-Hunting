@@ -4,8 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "0a67ce69dee42c26",
+        "id": "48da4129aec36abd",
         "type": "leaf",
+        "dimension": 49.956101843722564,
         "state": {
           "type": "markdown",
           "state": {
@@ -15,8 +16,9 @@
         }
       },
       {
-        "id": "4886e77fc45ad0a6",
+        "id": "e4ffc24d677ca97d",
         "type": "leaf",
+        "dimension": 50.043898156277436,
         "state": {
           "type": "markdown",
           "state": {
@@ -97,14 +99,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0a67ce69dee42c26",
+  "active": "48da4129aec36abd",
   "lastOpenFiles": [
     "Exploitation Phase 2.md",
     "Exploitation Phase.md",
+    "Reconnaissance- Phase1.md",
     "Untitled.md",
     "Fingerprinting.md",
     "Reconnaissance - Phase2.md",
-    "Reconnaissance- Phase1.md",
     "Reconnaissance.md",
     "Methodology - Workflows.md",
     "README.md"
