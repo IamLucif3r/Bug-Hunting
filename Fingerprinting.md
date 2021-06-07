@@ -15,8 +15,9 @@
 ### 1.2 Shodan
 - [Shodan](https://www.shodan.io/) is the most popular resource for gathering port scan data. This service scans the entire internet on a daily basis and provides this data to its users.
 - If you have your targets CIDR range you can use that to query Shodan. This will display all assets in that CIDR range that have an open port.
-- ```
+``` bash
 net:<”CIDR,CIDR,CIDR”>
+```
 -  You can also search via the organizations name.
 -  One technique you can use is to search for a company's SSL certificate. SSL certificates should have the companies name in them so you can use this to find other assets belonging to an organization.
 
