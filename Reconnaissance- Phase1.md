@@ -35,7 +35,9 @@ The beginning of the recon phase is broken down into vertical and horizontal cor
 	-  <i> intext:"© 2021 realself, inc. all rights reserved. realself is a registered trademark of realself, inc." </i>
 	-  ![Dorking](assets/dorking.png)
 <br>
+
 ### 3. Tools - Amass
+
 - Amass is the most popular asset discovery tool there is. This tool has many features and acts as the Swiss army knife of asset discovery.
 - We can perform several Discovery Actions using this tool. Some of the Informations that can be revealed using this tool are listed below: 
 	-  <b>ASN</b>: we can use a company’s ASN number to find a list of assets belong to the organization. First, we must find a list ASN numbers assigned to an organization using the following amass command:
