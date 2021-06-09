@@ -105,10 +105,3 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4
 		- verify(“HMAC”,key,token)
 	![](assets/hmac.png)
 	
-	## 3. Security Assertion Markup Language (SAML)
-	- If you're dealing with a fortune 500 company, a company implementing a zero trust network, or a company utilizing single sign on (SSO) technology then you're probably going to see Security Assertion Markup Language (SAML).
-	-  According to Google SSO is <i>“ an authentication scheme that allows a user to log in with a single ID and password to any of several related, yet independent, software systems ”.</i>
-![](assets/sso.png)
-- Above Image Shows Implementation of SAML.
-- the goal of SSO is to use one set of credentials across multiple websites, so we need a central place to login to and the SSO websites acts as this place.
-- 
