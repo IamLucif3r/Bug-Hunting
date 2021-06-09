@@ -1,29 +1,22 @@
 {
   "main": {
-    "id": "260e5b77859bdfd2",
+    "id": "bca1d3b0c49761cc",
     "type": "split",
     "children": [
       {
-        "id": "e4ffc24d677ca97d",
+        "id": "1d51869438d9cc59",
         "type": "leaf",
-        "dimension": 50.74626865671642,
         "state": {
-<<<<<<< HEAD
           "type": "markdown",
           "state": {
-            "file": "API-Testing.md",
+            "file": "Untitled.md",
             "mode": "source"
           }
-=======
-          "type": "empty",
-          "state": {}
->>>>>>> main
         }
       },
       {
-        "id": "3ca2f97b6a67f207",
+        "id": "967c8c2aa17fe653",
         "type": "leaf",
-        "dimension": 49.25373134328358,
         "state": {
           "type": "markdown",
           "state": {
@@ -36,15 +29,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "c8275bb0420dfee2",
+    "id": "b913eab355b0bcfe",
     "type": "split",
     "children": [
       {
-        "id": "d89a4dac03f43782",
+        "id": "4e2782095dffa78d",
         "type": "tabs",
         "children": [
           {
-            "id": "9a625e6d0dc9825c",
+            "id": "1f56794f4faf574f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -52,7 +45,7 @@
             }
           },
           {
-            "id": "7117f5fc05700b31",
+            "id": "967ae47aee414f60",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -70,18 +63,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 165.00079345703125
+    "width": 300
   },
   "right": {
-    "id": "1d341d09820565bd",
+    "id": "200e76304085cd16",
     "type": "split",
     "children": [
       {
-        "id": "9aaa98b5e40dde1e",
+        "id": "3c58f10166006afe",
         "type": "tabs",
         "children": [
           {
-            "id": "a9a04470220bd659",
+            "id": "6b3cf202be397945",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -104,21 +97,9 @@
     "width": 300,
     "collapsed": true
   },
-<<<<<<< HEAD
-  "active": "3ca2f97b6a67f207",
-=======
-  "active": "e4ffc24d677ca97d",
->>>>>>> main
+  "active": "967c8c2aa17fe653",
   "lastOpenFiles": [
     "API-Testing.md",
-    "API-Pentesting.md",
-    "Exploitation Phase 2.md",
-    "Untitled.md",
-    "Exploitation Phase.md",
-    "Reconnaissance- Phase1.md",
-    "Fingerprinting.md",
-    "Reconnaissance - Phase2.md",
-    "Reconnaissance.md",
-    "Methodology - Workflows.md"
+    "Untitled.md"
   ]
 }
