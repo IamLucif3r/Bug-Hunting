@@ -8,10 +8,10 @@ A Collection of Notes, Methodologies, POCs, Tools and everything else related to
 
 ## Contents
 The repo is organized in following manner. You can read the notes: 
-1. [Reconnaissance - Phase 1](https://github.com/IamLucif3r/Bug-Hunting/blob/main/Reconnaissance-%20Phase1.md)
-	1. CIDR Range
-	2. Google Dorking
-	3. Tools
+1. [Reconnaissance - Phase 1](https://github.com/IamLucif3r/Bug-Hunting/blob/main/Notes/Reconnaissance-%20Phase1.md)
+	1. [CIDR Range](https://github.com/IamLucif3r/Bug-Hunting/blob/main/Notes/Reconnaissance-%20Phase1.md)
+	2. [Google Dorking](https://github.com/IamLucif3r/Bug-Hunting/blob/main/Notes/Reconnaissance-%20Phase1.md)
+	3. [Tools](https://github.com/IamLucif3r/Bug-Hunting/blob/main/Notes/Reconnaissance-%20Phase1.md)
 2. Reconnaissance - Phase 2
 	1. Wordlists
 	2. Subdomain Enumeration
