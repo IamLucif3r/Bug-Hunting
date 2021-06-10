@@ -5,24 +5,24 @@
 
 <b>Working of Cache Servers</b>
 
-![](assets/cache.png)
+![](cache.png)
 
 - As you can see in the Image, initially when user requests for a URL for something=ok parameter, the request will be sent to server and the response will be saved to cache. However, for rest of 100 times, if the same URL is requested again - the request will get its response from the cache and there will be no need of pinging the server.
 
 - <b>Identify the Cache Requests & Response</b>
 	- A cache key is an index entry that uniquely identifies an object in a cache.
-	- ![](assets/care.png)
+	- ![](care.png)
 	- If we look at the above request the cache keys would be:
 		- GET /embed/v4.js?_=1605995211298
 		- Play.vidyard.com
-	- ![](assets/cares.png)
+	- ![](cares.png)
 	- As shown above in the HTTP response the “Vary” header says that the X-ThumbnailAB, X-China, accept-language, and Accept-Encoding headers are also used as cache keys.
 	
 	
 <u>This was all basics, now lets move on to the Web Cache Poisoning Attack:</u>
 
 - If an attacker can somehow inject malicious content into a http response that is cached the same response will be served to other users who request the same endpoint.
-![](assets/steps.png)
+![](steps.png)
 - The first step is to find <u>unkeyed input</u>. As mentioned earlier cache keys are used by the caching server to determine which requests are the same and which are different. We need to find keys that don't cause the server to think the request is different. (hence, named Unkeyed).
 - The second step is to determine the impact the unkeyed input has on the server, can it be used to exploit an open redirect vulnerability, self xss, or some other vulnerability.
 - Finally, you need to figure out if the page is cacheable using the unkeyed input, if it is you should be able to exploit other users when they view the cached page.
@@ -42,16 +42,16 @@
 - One Important thing is: "when a caching server decides to cache a response and when it doesn't "
 	- Suppose you have the endpoint “setting.php” which returns a user's name,email,address, and phone number. There could be numerous users access setting.php and each response will be different as the response relies on the user currently logged in so it wouldn't make sense to have caching on this page.
 	
-	![](assets/resca.png)
+	![](resca.png)
 	- On line 15 there is a header called “cache-control” which is set to “no-cache”. This tells the caching server to not cache this page.
 	- The caching server will cache all static pages no matter what the response headers say.
 	- So if we were to request example.com/nonexistent.css” the caching server would cache this response regardless of the response headers because it is configured to do so.
 - Next let's look at path confusion. Path confusion occurs when an application loads the same resources no matter what the path is. With the rise of large web applications and complicated routing tables path confusion has been introduced.
- ![](assets/pathc.png)
+ ![](pathc.png)
  - As you can see above there is a catch all path on the root directory.
 	 - Both the “example.com” and example.com/something'' URL would be sent to the same catch_all function.
  
- ![](assets/revolver.png)
+ ![](revolver.png)
  
  The above image is from the white paper <b>“Cached and Confused: Web Cache Deception in the Wild”</b> and describes several techniques used to cause path confusion.
  1. <b>Path Parameter :</b> It occurs when additional paths added to the request are passed to the same backend function.
