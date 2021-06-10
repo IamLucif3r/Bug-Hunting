@@ -41,20 +41,24 @@ The beginning of the recon phase is broken down into vertical and horizontal cor
 - Amass is the most popular asset discovery tool there is. This tool has many features and acts as the Swiss army knife of asset discovery.
 - We can perform several Discovery Actions using this tool. Some of the Informations that can be revealed using this tool are listed below: 
 	-  <b>ASN</b>: we can use a company’s ASN number to find a list of assets belong to the organization. First, we must find a list ASN numbers assigned to an organization using the following amass command:
-		-  ```
+		 ```
 		amass intel -org <company name here>
-		- ![](assets/amass-asn.png)
+		```
+		 ![](assets/amass-asn.png)
 		- This command will return a list of ASN numbers that might belong to the organization.
 	- <b>CIDR Range</b>: Now that you have a list of ASN numbers you can find the associated CIDR range by using the following bash command:
-		- ```
+		 ```
 		whois -h whois.radb.net -- '-i origin <ASN Number Here>' | grep -Eo "([0-9.]+){4}/[0-9]+" | sort -u
-		-	![](whois-cidr.png)
+		```
+		-	![](assets/whois-cidr.png)
 	-	<b>List of Domain</b>: You can also use amass to find a list of domains running on a given ASN. This will use reverse IP searches to find domains running on the IPs in the specified ASN. The following command can be used to find domains running on a given ASN:
-		-	```
+		```
 		amass intel -asn <ASN Number Here>
+		```
 		- Amass can also be used to find domains on a given CIDR range. We can use the following command to find these endpoints:
-		- ```
+		```
 		amass intel -cidr <CIDR Range Here>
+		```
 	- <b>Reverse Whois</b>: Given a specific domain amass can utilize reverse whois searches to find other domains purchased by the same user. The following command can be used to issue this request: 
 		```
 		amass intel -whois -d <Domain Name Here> 
