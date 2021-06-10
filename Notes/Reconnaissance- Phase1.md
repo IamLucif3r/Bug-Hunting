@@ -27,13 +27,17 @@ The beginning of the recon phase is broken down into vertical and horizontal cor
 	 - DNS records can be used to tie domains together. If domains share the same A, NS, or MX record we can assume they are owned by the same entity. There may be some false positives but these can be filtered out.
 		 - It Will increase Your Scope in Bug Hunting.
 <br>
+
 ### 2. Google Dorking
+
 - Dorking is no doubt a great option for filtering your results according to your purpose. We can perform several tasks through the google dorking. For Example: 
 	- We can then take that copyright text (A Copyright statement is unique for each website, located at the bottom of the web page) and search for every other website that contains this text.
 	-  <i> intext:"© 2021 realself, inc. all rights reserved. realself is a registered trademark of realself, inc." </i>
 	-  ![Dorking](dorking.png)
 <br>
+
 ### 3. Tools - Amass
+
 - Amass is the most popular asset discovery tool there is. This tool has many features and acts as the Swiss army knife of asset discovery.
 - We can perform several Discovery Actions using this tool. Some of the Informations that can be revealed using this tool are listed below: 
 	-  <b>ASN</b>: we can use a company’s ASN number to find a list of assets belong to the organization. First, we must find a list ASN numbers assigned to an organization using the following amass command:

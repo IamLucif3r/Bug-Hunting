@@ -15,8 +15,9 @@
 ### 1.2 Shodan
 - [Shodan](https://www.shodan.io/) is the most popular resource for gathering port scan data. This service scans the entire internet on a daily basis and provides this data to its users.
 - If you have your targets CIDR range you can use that to query Shodan. This will display all assets in that CIDR range that have an open port.
-- ```
+``` bash
 net:<”CIDR,CIDR,CIDR”>
+```
 -  You can also search via the organizations name.
 -  One technique you can use is to search for a company's SSL certificate. SSL certificates should have the companies name in them so you can use this to find other assets belonging to an organization.
 
@@ -30,9 +31,9 @@ net:<”CIDR,CIDR,CIDR”>
 ### 1.5 Masscan
 - Mass scanners are really good at detecting a single port across a huge range of IPs. The tool Masscan was built to scan the entire internet in just a few hours so it should be able to scan a large organization with ease.
 - https://github.com/robertdavidgraham/masscan
-- ```bash
+```bash
 sudo masscan -p<Port Here> <CIDR Range Here> --exclude  Exclude IP> --banners -oX <Out File Name> ```
-
+```
 <hr>
 
 ## 2. Web Applications
@@ -46,9 +47,14 @@ sudo masscan -p<Port Here> <CIDR Range Here> --exclude  Exclude IP> --banners -o
 ### 2.3 Firewall
 - It’s not uncommon to see an application protected by a web application firewall (WAF). Before you start throwing a bunch of XSS payloads at a target you should check to see if there is a WAF.
 - https://github.com/EnableSecurity/wafw00f
-- ```bash
+```bash
  wafoof <URL>
+<<<<<<< HEAD:Notes/Fingerprinting.md
 - ![](waf.png)
+=======
+```
+- ![](assets/waf.png)
+>>>>>>> main:Fingerprinting.md
 - The hacking community has been bypassing WAFs ever since the first WAF came out and much of it is documented.
 	- https://github.com/0xInfection/Awesome-WAF#known-bypasses
 
