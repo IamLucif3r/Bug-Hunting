@@ -2,7 +2,7 @@
 ## Introduction
 - The reconnaissance phase is all about finding your targets assets and endpoints.After you find your targets assets you need to fingerprint them. 
 
-![](finger.png)
+![](assets/finger.png)
 - The purpose of fingerprinting is to find out what technologies are running on your target’s assets.You want to know the technology stacks, version numbers, running services, and anything else that can be used to identify what's running on an endpoint.
 
 ---
