@@ -1,34 +1,27 @@
 {
   "main": {
-    "id": "260e5b77859bdfd2",
+    "id": "bca1d3b0c49761cc",
     "type": "split",
     "children": [
       {
-        "id": "e4ffc24d677ca97d",
+        "id": "8641bd04512f9351",
         "type": "leaf",
-        "dimension": 50.74626865671642,
         "state": {
-<<<<<<< HEAD
           "type": "markdown",
           "state": {
-            "file": "API-Testing.md",
+            "file": "Notes/Reconnaissance - Phase2.md",
             "mode": "source"
           }
-=======
-          "type": "empty",
-          "state": {}
->>>>>>> main
         }
       },
       {
-        "id": "3ca2f97b6a67f207",
+        "id": "c1774f9234a19da6",
         "type": "leaf",
-        "dimension": 49.25373134328358,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "API-Testing.md",
-            "mode": "preview"
+            "file": "README.md",
+            "mode": "source"
           }
         }
       }
@@ -36,15 +29,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "c8275bb0420dfee2",
+    "id": "b913eab355b0bcfe",
     "type": "split",
     "children": [
       {
-        "id": "d89a4dac03f43782",
+        "id": "4e2782095dffa78d",
         "type": "tabs",
         "children": [
           {
-            "id": "9a625e6d0dc9825c",
+            "id": "1f56794f4faf574f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -52,7 +45,7 @@
             }
           },
           {
-            "id": "7117f5fc05700b31",
+            "id": "967ae47aee414f60",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -70,23 +63,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 165.00079345703125
+    "width": 300
   },
   "right": {
-    "id": "1d341d09820565bd",
+    "id": "200e76304085cd16",
     "type": "split",
     "children": [
       {
-        "id": "9aaa98b5e40dde1e",
+        "id": "3c58f10166006afe",
         "type": "tabs",
         "children": [
           {
-            "id": "a9a04470220bd659",
+            "id": "6b3cf202be397945",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API-Testing.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,21 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-<<<<<<< HEAD
-  "active": "3ca2f97b6a67f207",
-=======
-  "active": "e4ffc24d677ca97d",
->>>>>>> main
+  "active": "c1774f9234a19da6",
   "lastOpenFiles": [
-    "API-Testing.md",
-    "API-Pentesting.md",
-    "Exploitation Phase 2.md",
+    "README.md",
     "Untitled.md",
-    "Exploitation Phase.md",
-    "Reconnaissance- Phase1.md",
-    "Fingerprinting.md",
+    "Caching Servers.md",
     "Reconnaissance - Phase2.md",
-    "Reconnaissance.md",
-    "Methodology - Workflows.md"
+    "Reconnaissance- Phase1.md",
+    "Misc.md",
+    "Exploitation Phase 2.md",
+    "Exploitation Phase.md",
+    "Untitled 1.md",
+    "API-Testing.md"
   ]
 }

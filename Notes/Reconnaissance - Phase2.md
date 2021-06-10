@@ -26,18 +26,18 @@ Word lists are used to find new subdomains, interesting files, cracking password
 #### 2.1 Certification Transparency Logs
 - Any site that starts with HTTPS:// uses SSL certificates to provide a secure connection. If a hacker or rogue certificate authority is able to forge this certificate they would be able to perform man in the middle attacks.
 
- ![](assets/subdomain-enum.png)
+ ![](subdomain-enum.png)
 - The certificate transparency log is used to monitor and audit unauthorized certificates. Every time you get an SSL certificate for your domain or subdomain it will be logged in certificate transparency logs
 - We can find all SSL certificates belonging to a domain by issuing a GET request to https://crt.sh/?q=%25.facebook.com as shown below:
 
-	 ![](assets/crt.png)
+	 ![](crt.png)
 - <b>Tools</b>:
 	- [Crtsh.py](https://github.com/ghostlulzhacks/CertificateTransparencyLogs)
 #### 2.2 Search Engine
 - Google dorks can be utilized to find subdomains with the following dork:
 	- Site: 
 		- This dork wil return all the links belonging to a specific domain. 
-		 ![](assets/dork.png)
+		 ![](dork.png)
 #### 2.4 Github 
 - Almost every developer uses GitHub to store their source code. Developers will often hard code private or hidden endpoint points in their source code. 
 - Tool : [Github-Search](https://github.com/gwen001/github-search/blob/master/github-subdomains.py) by [gwen001](https://github.com/gwen001).
@@ -90,7 +90,7 @@ Word lists are used to find new subdomains, interesting files, cracking password
 ## 5. Content Discovery
 - Content discovery is a vital process in the reconnaissance phase. Failing to perform this phase properly will result in lots of missed vulnerabilities. The main purpose behind content discovery is to find endpoints on a target domain. 
 - You are looking for things such as log files, config files, interesting technologies or applications, and anything else that is hosted on the website.
- ![](assets/content-disc.png)
+ ![](content-disc.png)
 
 #### 5.1 Self Crawl
 - One of the best ways to find endpoints on a target is to crawl the application. Crawling a website involves recursively visiting each link and saving each link on a web page recursively.
@@ -149,10 +149,10 @@ website.
 	-  site: ThirdPartyVendor CompanyName
 
 #### 7.3 Content
-![](assets/dork-1.png)
-![](assets/dork-2.png)
-![](assets/dork-3.png)
-![](assets/dork-4.png)
+![](dork-1.png)
+![](dork-2.png)
+![](dork-3.png)
+![](dork-4.png)
 
 #### Conclusion
 Google dorks can be used to find anything and everything about your target.Google dorks have been around for a long time and they don’t seem to be going away anytime soon. There are some people who solely rely on google dorks to find their vulnerabilities.

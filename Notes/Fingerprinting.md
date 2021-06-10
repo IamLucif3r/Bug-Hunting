@@ -2,7 +2,7 @@
 ## Introduction
 - The reconnaissance phase is all about finding your targets assets and endpoints.After you find your targets assets you need to fingerprint them. 
 
-![](assets/finger.png)
+![](finger.png)
 - The purpose of fingerprinting is to find out what technologies are running on your target’s assets.You want to know the technology stacks, version numbers, running services, and anything else that can be used to identify what's running on an endpoint.
 
 ---
@@ -49,8 +49,12 @@ sudo masscan -p<Port Here> <CIDR Range Here> --exclude  Exclude IP> --banners -o
 - https://github.com/EnableSecurity/wafw00f
 ```bash
  wafoof <URL>
+<<<<<<< HEAD:Notes/Fingerprinting.md
+- ![](waf.png)
+=======
 ```
 - ![](assets/waf.png)
+>>>>>>> main:Fingerprinting.md
 - The hacking community has been bypassing WAFs ever since the first WAF came out and much of it is documented.
 	- https://github.com/0xInfection/Awesome-WAF#known-bypasses
 
