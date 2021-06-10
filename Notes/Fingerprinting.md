@@ -49,12 +49,11 @@ sudo masscan -p<Port Here> <CIDR Range Here> --exclude  Exclude IP> --banners -o
 - https://github.com/EnableSecurity/wafw00f
 ```bash
  wafoof <URL>
-<<<<<<< HEAD:Notes/Fingerprinting.md
-- ![](waf.png)
-=======
 ```
-- ![](assets/waf.png)
->>>>>>> main:Fingerprinting.md
+ ![](waf.png)
+
+ ![](assets/waf.png)
+
 - The hacking community has been bypassing WAFs ever since the first WAF came out and much of it is documented.
 	- https://github.com/0xInfection/Awesome-WAF#known-bypasses
 
