@@ -56,6 +56,6 @@ The beginning of the recon phase is broken down into vertical and horizontal cor
 		- ```
 		amass intel -cidr <CIDR Range Here>
 	- <b>Reverse Whois</b>: Given a specific domain amass can utilize reverse whois searches to find other domains purchased by the same user. The following command can be used to issue this request: 
-		- ```
+		```
 		amass intel -whois -d <Domain Name Here> 
-		- 
+		``` 
