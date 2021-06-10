@@ -21,7 +21,7 @@
           "type": "markdown",
           "state": {
             "file": "README.md",
-            "mode": "preview"
+            "mode": "source"
           }
         }
       }
@@ -100,6 +100,7 @@
   "active": "c1774f9234a19da6",
   "lastOpenFiles": [
     "README.md",
+    "Untitled.md",
     "Caching Servers.md",
     "Reconnaissance - Phase2.md",
     "Reconnaissance- Phase1.md",
@@ -107,7 +108,6 @@
     "Exploitation Phase 2.md",
     "Exploitation Phase.md",
     "Untitled 1.md",
-    "API-Testing.md",
-    "Untitled.md"
+    "API-Testing.md"
   ]
 }
