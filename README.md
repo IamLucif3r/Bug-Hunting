@@ -1,4 +1,4 @@
-![](banner.gif)
+![](Notes/assets/banner.gif)
 
 <div align = "center"> <h1> Bug Hunting   </h1></div>
 A Collection of Notes, Methodologies, POCs, Tools and everything else related to Bug Hunting. 
