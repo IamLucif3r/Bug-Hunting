@@ -1,10 +1,19 @@
 ![](Notes/assets/banner.gif)
+<div align = "center"> <h1> Bug Hunting   </h1>	
+A Collection of Notes, Methodologies, POCs, Tools and everything else related to Bug Hunting.  
 
-<div align = "center"> <h1> Bug Hunting   </h1></div>
-A Collection of Notes, Methodologies, POCs, Tools and everything else related to Bug Hunting. 
+![](https://img.shields.io/twitter/url?color=Blue&logoColor=Blue&style=social&url=https%3A%2F%2Fgithub.com%2FIamLucif3r%2FBug-Hunting)	
+</div>
 
-![](https://img.shields.io/twitter/follow/IamLucif3r_?style=social)  ![](https://img.shields.io/github/followers/IamLucif3r?label=Follow%20Me&style=social) ![](https://img.shields.io/badge/Contribuitions-Welcome-brightgreen)
+<br>
+
+![](https://img.shields.io/twitter/follow/IamLucif3r_?style=social) &nbsp &nbsp ![](https://img.shields.io/github/followers/IamLucif3r?label=Follow%20Me&style=social) &nbsp &nbsp ![](https://img.shields.io/badge/Contribuitions-Welcome-brightgreen)
+
+
+
 <hr>
+
+:point\_right: A Bug Bounty Program is a deal offered by several Oragnizations & Individuals by which  recognition and compensation is provided to individuals for reporting Bugs. 
 
 ## Contents
 The repo is organized in following manner. You can read the notes: 
@@ -77,5 +86,12 @@ The repo is organized in following manner. You can read the notes:
 	5. [Content Security Policy Bypass](https://github.com/IamLucif3r/Bug-Hunting/blob/main/Notes/Misc.md#5-content-security-policy-bypass)
 	6. [Relative Path Overwrite](https://github.com/IamLucif3r/Bug-Hunting/blob/main/Notes/Misc.md#6-relative-path-overwrite-rpo)
 
+## Bug-Hunting Platforms 
+Following are some of the top Bug-Hunting Platforms. You can make your account and start hunting bugs for the programs available.
+- [Hackerone](https://www.hackerone.com/)
+- [Bugcrowd](https://bugcrowd.com/)
+- [Intigriti](https://www.intigriti.com/)
+- Responsible Disclosures [(Use Google Dorks To Find Programs)](https://github.com/sushiwushi/bug-bounty-dorks/blob/master/dorks.txt)
 
-### Contribution 
+### Contributions
+You are welcome to contribute
