@@ -92,6 +92,7 @@ Following are some of the top Bug-Hunting Platforms. You can make your account a
 - [Intigriti](https://www.intigriti.com/)
 - Responsible Disclosures [(Use Google Dorks To Find Programs)](https://github.com/sushiwushi/bug-bounty-dorks/blob/master/dorks.txt)
 
+<b>Note: This Repo is under development, Only Notes have been added till now. Separate Section for Tools, POCs and Tricks will be created soon</b>
 ### ➡️ Contributions
 You are Welcome to Contribute. You can contribute by:
 - Translating into other languages
