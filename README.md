@@ -1,13 +1,21 @@
 ![](Notes/assets/banner.gif)
+<div align = "center"> <h1> Bug Hunting   </h1>	
+A Collection of Notes, Methodologies, POCs, Tools and everything else related to Bug Hunting.  :v:
 
-<div align = "center"> <h1> Bug Hunting   </h1></div>
-A Collection of Notes, Methodologies, POCs, Tools and everything else related to Bug Hunting. 
+</div>
 
-![](https://img.shields.io/twitter/follow/IamLucif3r_?style=social)  ![](https://img.shields.io/github/followers/IamLucif3r?label=Follow%20Me&style=social) ![](https://img.shields.io/badge/Contribuitions-Welcome-brightgreen)
+<br>
+
+![](https://img.shields.io/twitter/follow/IamLucif3r_?style=social)     ![](https://img.shields.io/github/followers/IamLucif3r?label=Follow%20Me&style=social)  ![](https://img.shields.io/badge/Contribuitions-Welcome-brightgreen)
+
+
+
 <hr>
 
+:point\_right: A Bug Bounty Program is a deal offered by several Oragnizations & Individuals by which  recognition and compensation is provided to individuals for reporting Bugs. 
+
 ## Contents
-The repo is organized in following manner. You can read the notes: 
+:point\_right: The repo is organized in following manner. You can read the notes: 
 1. [Reconnaissance - Phase 1](https://github.com/IamLucif3r/Bug-Hunting/blob/main/Notes/Reconnaissance-%20Phase1.md)
 	1. [CIDR Range](https://github.com/IamLucif3r/Bug-Hunting/blob/main/Notes/Reconnaissance-%20Phase1.md#1-cidr-range)
 	2. [Google Dorking](https://github.com/IamLucif3r/Bug-Hunting/blob/main/Reconnaissance-%20Phase1.md#2-google-dorking)
@@ -77,5 +85,17 @@ The repo is organized in following manner. You can read the notes:
 	5. [Content Security Policy Bypass](https://github.com/IamLucif3r/Bug-Hunting/blob/main/Notes/Misc.md#5-content-security-policy-bypass)
 	6. [Relative Path Overwrite](https://github.com/IamLucif3r/Bug-Hunting/blob/main/Notes/Misc.md#6-relative-path-overwrite-rpo)
 
+## Bug-Hunting Platforms 
+Following are some of the top Bug-Hunting Platforms. You can make your account and start hunting bugs for the programs available.
+- [Hackerone](https://www.hackerone.com/)
+- [Bugcrowd](https://bugcrowd.com/)
+- [Intigriti](https://www.intigriti.com/)
+- Responsible Disclosures [(Use Google Dorks To Find Programs)](https://github.com/sushiwushi/bug-bounty-dorks/blob/master/dorks.txt)
 
-### Contribution 
+### ➡️ Contributions
+You are Welcome to Contribute. You can contribute by:
+- Translating into other languages
+- Adding more Methodologies, Tools, and other Resources.
+- Just adding a star to our Github project :) 
+
+ :point\_right: If you have some new idea about this Repository, issue, feedback or found some valuable tool feel free to open an issue or just DM me via [@IamLucif3r_](https://twitter.com/IamLucif3r_)

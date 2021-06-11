@@ -4,24 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "8641bd04512f9351",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Notes/Reconnaissance - Phase2.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
         "id": "c1774f9234a19da6",
         "type": "leaf",
+        "dimension": 45.029821073558644,
         "state": {
           "type": "markdown",
           "state": {
             "file": "README.md",
             "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "593b4a33cb88ad9e",
+        "type": "leaf",
+        "dimension": 54.97017892644135,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "README.md",
+            "mode": "preview"
           }
         }
       }
@@ -63,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 229.00079345703125
   },
   "right": {
     "id": "200e76304085cd16",
