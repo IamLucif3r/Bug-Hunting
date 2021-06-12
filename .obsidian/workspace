@@ -4,25 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "c1774f9234a19da6",
+        "id": "a73fad89916abe32",
         "type": "leaf",
-        "dimension": 45.029821073558644,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "Methodologies/xss.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "593b4a33cb88ad9e",
+        "id": "167c3a23a2681bac",
         "type": "leaf",
-        "dimension": 54.97017892644135,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "Methodologies/xss.md",
             "mode": "preview"
           }
         }
@@ -81,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Methodologies/xss.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,17 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c1774f9234a19da6",
+  "active": "a73fad89916abe32",
   "lastOpenFiles": [
-    "README.md",
+    "Methodologies/xss.md",
+    "Methodologies/README.md",
     "Untitled.md",
+    "Untitled 1.md",
+    "README.md",
     "Caching Servers.md",
     "Reconnaissance - Phase2.md",
     "Reconnaissance- Phase1.md",
     "Misc.md",
-    "Exploitation Phase 2.md",
-    "Exploitation Phase.md",
-    "Untitled 1.md",
-    "API-Testing.md"
+    "Exploitation Phase 2.md"
   ]
 }
