@@ -9,18 +9,18 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Methodologies/xss.md",
+            "file": "Methodologies/host-header.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "167c3a23a2681bac",
+        "id": "26da6e9ca8ef085a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Methodologies/xss.md",
+            "file": "Methodologies/host-header.md",
             "mode": "preview"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methodologies/xss.md",
+                "file": "Methodologies/host-header.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,17 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a73fad89916abe32",
+  "active": "26da6e9ca8ef085a",
   "lastOpenFiles": [
+    "Methodologies/host-header.md",
     "Methodologies/xss.md",
-    "Methodologies/README.md",
     "Untitled.md",
+    "Methodologies/README.md",
     "Untitled 1.md",
     "README.md",
     "Caching Servers.md",
     "Reconnaissance - Phase2.md",
     "Reconnaissance- Phase1.md",
-    "Misc.md",
-    "Exploitation Phase 2.md"
+    "Misc.md"
   ]
 }
