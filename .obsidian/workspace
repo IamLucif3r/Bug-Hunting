@@ -4,23 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "a73fad89916abe32",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Methodologies/host-header.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
         "id": "26da6e9ca8ef085a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Methodologies/host-header.md",
+            "file": "Misc.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "b1549c9828dffcba",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "password-reset-flaw.md",
             "mode": "preview"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methodologies/host-header.md",
+                "file": "Misc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,15 +99,15 @@
   },
   "active": "26da6e9ca8ef085a",
   "lastOpenFiles": [
+    "Misc.md",
+    "Untitled.md",
+    "password-reset-flaw.md",
     "Methodologies/host-header.md",
     "Methodologies/xss.md",
-    "Untitled.md",
     "Methodologies/README.md",
     "Untitled 1.md",
     "README.md",
     "Caching Servers.md",
-    "Reconnaissance - Phase2.md",
-    "Reconnaissance- Phase1.md",
-    "Misc.md"
+    "Reconnaissance - Phase2.md"
   ]
 }
