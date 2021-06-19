@@ -4,23 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "26da6e9ca8ef085a",
+        "id": "907a3a2e743c13d0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Misc.md",
+            "file": "Methodologies/Authentication.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "b1549c9828dffcba",
+        "id": "a962df86e316ab1b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "password-reset-flaw.md",
+            "file": "Methodologies/Authentication.md",
             "mode": "preview"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Misc.md",
+                "file": "Methodologies/Authentication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,17 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "26da6e9ca8ef085a",
+  "active": "907a3a2e743c13d0",
   "lastOpenFiles": [
-    "Misc.md",
+    "Methodologies/Authentication.md",
     "Untitled.md",
-    "password-reset-flaw.md",
-    "Methodologies/host-header.md",
+    "Misc.md",
     "Methodologies/xss.md",
     "Methodologies/README.md",
+    "Methodologies/host-header.md",
+    "password-reset-flaw.md",
     "Untitled 1.md",
     "README.md",
-    "Caching Servers.md",
-    "Reconnaissance - Phase2.md"
+    "Caching Servers.md"
   ]
 }

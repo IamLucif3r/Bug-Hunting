@@ -9,3 +9,6 @@ Main part
 4. Created git account with name of company , So it was like
 http://github.com/site/
 ---
+
+### 2. SSRF
+1. 
