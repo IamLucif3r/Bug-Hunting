@@ -5,3 +5,4 @@ The Methodologies includes steps, to check the respective vulnerabilities. The f
 - [XSS](xss.md)
 - [Host-Header Injection](host-header.md)
 - [Password-Reset Flaws](password-reset-flaw.md)
+- [Authentication](Authentication.md)
