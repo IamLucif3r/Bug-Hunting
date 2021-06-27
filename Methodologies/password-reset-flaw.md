@@ -28,3 +28,26 @@
 
 ---
 
+### Method 3: Modifing the JSON, to send Pswd Reset Mail on multiple Email IDs
+- If in the reset password request there is a post Json parameter => email	
+```json
+“email":”me@mail.com”
+```
+and the response is
+```json
+“msg”:”password reset email sent”
+```
+Try to make the email parameter value as an Array with 2 mails to manipulate the functionality and send the email link to email1 and email2
+```json
+{
+	“email”:[”victimMail”,”attackerMail"]
+}
+```
+![](assets/pswd-reset.png)
+If you're lucky the password Reset link will be send to both the Emails.
+
+**Tip** :- In reset password request
+1.  use content type converter burp ext
+2. convert the request to json , if the application accepted it try this trick
+3. convert the request to xml and if the application accepted it u can try xxe
+---

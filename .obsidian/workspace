@@ -4,23 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "907a3a2e743c13d0",
+        "id": "ec6104b0398366c9",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Methodologies/Authentication.md",
+            "file": "Methodologies/Account-Takeover.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "a962df86e316ab1b",
+        "id": "b4ad89964e3cbc5b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Methodologies/Authentication.md",
+            "file": "Methodologies/Account-Takeover.md",
             "mode": "preview"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methodologies/Authentication.md",
+                "file": "Methodologies/Account-Takeover.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,17 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "907a3a2e743c13d0",
+  "active": "b4ad89964e3cbc5b",
   "lastOpenFiles": [
-    "Methodologies/Authentication.md",
+    "Methodologies/Account-Takeover.md",
+    "Methodologies/password-reset-flaw.md",
     "Untitled.md",
+    "Methodologies/Authentication.md",
+    "Methodologies/assets/pswd-reset.png",
     "Misc.md",
     "Methodologies/xss.md",
     "Methodologies/README.md",
     "Methodologies/host-header.md",
-    "password-reset-flaw.md",
-    "Untitled 1.md",
-    "README.md",
-    "Caching Servers.md"
+    "password-reset-flaw.md"
   ]
 }
