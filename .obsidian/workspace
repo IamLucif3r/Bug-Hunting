@@ -4,23 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "ec6104b0398366c9",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Methodologies/Account-Takeover.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
         "id": "b4ad89964e3cbc5b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Methodologies/Account-Takeover.md",
+            "file": "Methodologies/Sensitive-Information-Disclosure.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "ff1c1c9f4fe2cc4c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Methodologies/Sensitive-Information-Disclosure.md",
             "mode": "preview"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methodologies/Account-Takeover.md",
+                "file": "Methodologies/Sensitive-Information-Disclosure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,15 +99,15 @@
   },
   "active": "b4ad89964e3cbc5b",
   "lastOpenFiles": [
+    "Methodologies/Sensitive-Information-Disclosure.md",
+    "Untitled.md",
+    "Methodologies/Subdomain-Enumeration-Tecniques.md",
     "Methodologies/Account-Takeover.md",
     "Methodologies/password-reset-flaw.md",
-    "Untitled.md",
     "Methodologies/Authentication.md",
     "Methodologies/assets/pswd-reset.png",
     "Misc.md",
     "Methodologies/xss.md",
-    "Methodologies/README.md",
-    "Methodologies/host-header.md",
-    "password-reset-flaw.md"
+    "Methodologies/README.md"
   ]
 }
