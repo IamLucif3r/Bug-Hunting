@@ -25,6 +25,4 @@
 	- https://censys.io/
 	- https://google.com/transparencyreport/https/ct/
 	
-### 2. DNSSEC
-- DNSSEC provides a layer of security by adding cryptographic signatures to existing DNS Records
-- These signatures  
+---
