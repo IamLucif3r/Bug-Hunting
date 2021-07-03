@@ -7,4 +7,5 @@ The Methodologies includes steps, to check the respective vulnerabilities. The f
 - [Password-Reset Flaws](password-reset-flaw.md)
 - [Authentication](Authentication.md)
 - [Account Takeover](Account-Takeover.md)
+- [Subdomain Enumeration](Subdomain-Enumeration-Tecniques.md)
 - [Misc](Misc.md)
