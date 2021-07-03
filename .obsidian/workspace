@@ -9,18 +9,18 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Methodologies/Sensitive-Information-Disclosure.md",
+            "file": "Methodologies/Subdomain-Enumeration-Tecniques.md",
             "mode": "source"
           }
         }
       },
       {
-        "id": "ff1c1c9f4fe2cc4c",
+        "id": "2e5505c5a1eeeb85",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Methodologies/Sensitive-Information-Disclosure.md",
+            "file": "Methodologies/Subdomain-Enumeration-Tecniques.md",
             "mode": "preview"
           }
         }
@@ -79,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methodologies/Sensitive-Information-Disclosure.md",
+                "file": "Methodologies/Subdomain-Enumeration-Tecniques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,15 +99,15 @@
   },
   "active": "b4ad89964e3cbc5b",
   "lastOpenFiles": [
-    "Methodologies/Sensitive-Information-Disclosure.md",
-    "Untitled.md",
     "Methodologies/Subdomain-Enumeration-Tecniques.md",
+    "Untitled.md",
+    "Methodologies/xss.md",
+    "Methodologies/Sensitive-Information-Disclosure.md",
     "Methodologies/Account-Takeover.md",
     "Methodologies/password-reset-flaw.md",
     "Methodologies/Authentication.md",
     "Methodologies/assets/pswd-reset.png",
     "Misc.md",
-    "Methodologies/xss.md",
     "Methodologies/README.md"
   ]
 }
