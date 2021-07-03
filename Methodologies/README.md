@@ -8,4 +8,5 @@ The Methodologies includes steps, to check the respective vulnerabilities. The f
 - [Authentication](Authentication.md)
 - [Account Takeover](Account-Takeover.md)
 - [Subdomain Enumeration](Subdomain-Enumeration-Tecniques.md)
+- [Sensitive Information Leaks](Sensitive-Information-Disclosure.md)
 - [Misc](Misc.md)
