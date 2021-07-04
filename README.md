@@ -16,6 +16,8 @@ A Collection of Notes, Methodologies, POCs, Tools and everything else related to
 
 :point\_right: A Bug Bounty Program is a deal offered by several Oragnizations & Individuals by which  recognition and compensation is provided to individuals for reporting Bugs. 
 
+<b> You can Fork this Repo, I'm continuously adding the content! </b>
+
 ## Contents
 :point\_right: The repo is organized in following manner. You can read the notes: 
 1. [Reconnaissance - Phase 1](https://github.com/IamLucif3r/Bug-Hunting/blob/main/Notes/Reconnaissance-%20Phase1.md)
